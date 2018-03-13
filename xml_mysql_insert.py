@@ -14,7 +14,7 @@ for bookitem in soup.findAll('item'):
 import pymysql
 
 # mysql 연결
-conn = pymysql.connect(host="localhost", user="root", password="12270912", db="book_infor", charset="utf8")
+conn = pymysql.connect(host="localhost", user="root", password="", db="book_infor", charset="utf8")
 
 curs = conn.cursor(pymysql.cursors.DictCursor)
 
